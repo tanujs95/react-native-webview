@@ -457,8 +457,6 @@ public class RNCWebViewModule extends ReactContextBaseJavaModule implements Acti
         String mimeType = getMimeTypeFromExtension(t.replace(".", ""));
         if(mimeType != null) {
           mimeTypes[i] = mimeType;
-        } else {
-          mimeTypes[i] = t;
         }
       } else {
         mimeTypes[i] = t;
